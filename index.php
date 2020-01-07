@@ -53,7 +53,6 @@ get_header();
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-<h1>bullshit</h1>
 <?php
 get_sidebar();
 get_footer();
