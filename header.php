@@ -61,6 +61,17 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
+          <section class="logoSection">
+            <div class="imgLogo box">
+            	<div class="imgLogoBox">
+              <video width="400" height="400" autoplay loop muted poster="<?php echo get_template_directory_uri(); ?>/img/logo/logo.jpg">
+                <source src="<?php echo get_template_directory_uri(); ?>/img/logo/logo3.mp4" type="video/mp4" />
+                 
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  </div>
+                </section>
 	<div id="content" class="site-content">
 
-		<script src="//partners.designmynight.com/pf/js?venue_id=5bd825217864b53b6f501974" id="dmn-js"></script>
+
