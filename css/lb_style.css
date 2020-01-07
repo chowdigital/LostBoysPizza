@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "shlop";
+  src: url("https://use.typekit.net/af/890e08/00000000000000003b9afe43/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/890e08/00000000000000003b9afe43/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/890e08/00000000000000003b9afe43/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "alegreya";
+  src: url("https://use.typekit.net/af/cf7654/00000000000000003b9b236e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"), url("https://use.typekit.net/af/cf7654/00000000000000003b9b236e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"), url("https://use.typekit.net/af/cf7654/00000000000000003b9b236e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+  font-style: normal;
+  font-weight: 900; }
+@font-face {
+  font-family: "alegreya";
+  src: url("https://use.typekit.net/af/447a9b/00000000000000003b9b2366/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/447a9b/00000000000000003b9b2366/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/447a9b/00000000000000003b9b2366/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-style: normal;
+  font-weight: 400; }
+.tk-shlop {
+  font-family: "shlop", sans-serif; }
+
+.tk-alegreya {
+  font-family: "alegreya", serif; }
+
+html {
+  background: url("../img/skullTile.png");
+  z-index: 1;
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: alegreya, serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  z-index: 3;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: left;
+  background: url("../img/moonWide.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+a {
+  color: #fff; }
+  a:hover {
+    color: #333; }
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 1em 0; }
+
+h1, h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+  padding-top: 0em;
+  text-transform: uppercase;
+  font-weight: 900; }
+
+h3 {
+  font-size: 1em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  font-weight: 900; }
+
+h4 {
+  font-family: shlop, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+p {
+  font-size: 1em;
+  letter-spacing: 0; }
+
+small {
+  font-size: 0.7em; }
+
+strong {
+  font-weight: 900;
+  text-transform: uppercase; }
+
+.main-navigation li {
+  float: right; }
+
+/*# sourceMappingURL=lb_style.css.map */

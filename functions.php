@@ -122,6 +122,8 @@ add_action( 'widgets_init', 'lostboys2020_widgets_init' );
 function lostboys2020_scripts() {
 	wp_enqueue_style( 'lostboys2020-style', get_stylesheet_uri() );
 
+	wp_enqueue_style( 'lbStyle', get_template_directory_uri() . '/css/lb_style.css', array(), '1.0', 'all' );
+
 	wp_enqueue_script( 'lostboys2020-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'lostboys2020-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
