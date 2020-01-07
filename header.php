@@ -45,7 +45,13 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'lostboys2020' ); ?></button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+				<div id="hamburger" class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</button>
 			<?php
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',
@@ -56,3 +62,5 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+
+		<script src="//partners.designmynight.com/pf/js?venue_id=5bd825217864b53b6f501974" id="dmn-js"></script>
