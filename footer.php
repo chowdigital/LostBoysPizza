@@ -15,17 +15,15 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'lostboys2020' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'lostboys2020' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'lostboys2020' ), 'lostboys2020', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
+	<div class="blackText">
+			<h2><span class="main-text skew">
+						Win free pizza for a year
+    						<span class="back-text glitch">Win free pizza for a year</span>
+  					</span>
+  				</h2>
+			<h4>Sell your <s>soul</s> <span id="corection">email</span>, maybe win some pizza.</h4> 
+		</div>
+	</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

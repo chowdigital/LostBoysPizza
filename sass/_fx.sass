@@ -1,0 +1,89 @@
+.main-text 
+	position: relative
+	display: inline-block
+
+
+.back-text 
+	position: absolute
+	width: 100%
+	left: 0
+	top: 0
+	display: inline-block
+
+
+.skew 
+	animation: skew 3.2s infinite alternate
+
+
+.glitch 
+	animation: glitch 3.2s infinite alternate
+
+
+@keyframes skew 
+	50% 
+		transform: skew(0deg)
+
+	10% 
+		transform: skew(0deg)
+
+	24% 
+		transform: skew(-3deg)
+
+	28% 
+		transform: skew(0deg)
+
+	35% 
+		transform: skew(0deg)
+
+	37%
+		transform: skew(2deg)
+
+	39% 
+		transform: skew(0deg)
+
+	50% 
+		transform: skew(0deg)
+  
+
+
+@keyframes glitch
+	0% 
+		transform: translate3d(0, 0, 0)
+		opacity: 1
+
+	10% 
+		transform: translate3d(0, 0, 0)
+		opacity: 0.3
+
+	12% 
+		transform: translate3d(5px, 4px, 0)
+		opacity: 1
+
+	14% 
+		transform: translate3d(0, 0, 0)
+
+	30% 
+		transform: translate3d(0, 0, 0)
+
+	32%
+		transform: translate3d(-4px, -3px, 0)
+
+	34% 
+		transform: translate3d(0, 0, 0)
+
+	35% 
+		opacity: 1
+		transform: translate3d(0, 0, 0)
+
+	37%
+		opacity: 0.3
+		transform: translate3d(10px, -6px, 0)
+
+	38% 
+		opacity: 1
+		transform: translate3d(0, 0, 0)
+
+	40% 
+		transform: translate3d(0, 0, 0)
+
+

@@ -99,7 +99,7 @@ strong {
     font-size: 1.5em;
     text-align: center; }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 900px) {
   .nav-menu {
     float: right;
     padding-top: 10px;
@@ -110,7 +110,7 @@ strong {
     top: 0;
     padding-top: 50px;
     z-index: 50; } }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 899px) {
   #menu-item-2631 {
     display: none; }
 
@@ -120,7 +120,7 @@ strong {
     font-size: 30px; }
     .main-navigation li a {
       padding-top: 7px; } }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 900px) {
   .menu-toggle {
     background: transparent;
     border: none; }
@@ -199,7 +199,7 @@ strong {
   right: 0px;
   top: 0px; }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 899px) {
   .book img {
     display: none; } }
 .imgLogo video {
@@ -208,7 +208,7 @@ strong {
   -moz-box-shadow: 20px 20px 30px 0px black;
   box-shadow: 20px 20px 30px 0px black; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .logoSection {
     background-color: #000;
     -webkit-box-shadow: 0px 13px 19px 2px black;
@@ -216,6 +216,13 @@ strong {
     box-shadow: 0px 13px 19px 2px black;
     text-align: center;
     height: 100vh; } }
+.site-footer {
+  padding: 2em;
+  text-align: left;
+  background-image: url("img/graveyard.png");
+  background-position: center;
+  padding-top: 300px; }
+
 .site-content {
   -webkit-transition: -webkit-transform 0.28s, opacity 0.28s;
   -ms-transition: -o-transform 0.28s, opacity 0.28s;
@@ -228,5 +235,69 @@ strong {
   -o-transform: translate3d(0, 100px, 0);
   transform: translate3d(0, 100px, 0);
   opacity: 0; }
+
+.main-text {
+  position: relative;
+  display: inline-block; }
+
+.back-text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: inline-block; }
+
+.skew {
+  animation: skew 3.2s infinite alternate; }
+
+.glitch {
+  animation: glitch 3.2s infinite alternate; }
+
+@keyframes skew {
+  50% {
+    transform: skew(0deg); }
+  10% {
+    transform: skew(0deg); }
+  24% {
+    transform: skew(-3deg); }
+  28% {
+    transform: skew(0deg); }
+  35% {
+    transform: skew(0deg); }
+  37% {
+    transform: skew(2deg); }
+  39% {
+    transform: skew(0deg); }
+  50% {
+    transform: skew(0deg); } }
+@keyframes glitch {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1; }
+  10% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0.3; }
+  12% {
+    transform: translate3d(5px, 4px, 0);
+    opacity: 1; }
+  14% {
+    transform: translate3d(0, 0, 0); }
+  30% {
+    transform: translate3d(0, 0, 0); }
+  32% {
+    transform: translate3d(-4px, -3px, 0); }
+  34% {
+    transform: translate3d(0, 0, 0); }
+  35% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); }
+  37% {
+    opacity: 0.3;
+    transform: translate3d(10px, -6px, 0); }
+  38% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); }
+  40% {
+    transform: translate3d(0, 0, 0); } }
 
 /*# sourceMappingURL=lb_style.css.map */
