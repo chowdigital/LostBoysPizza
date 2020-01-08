@@ -156,5 +156,9 @@ strong {
       -moz-transform: rotate(-135deg);
       -o-transform: rotate(-135deg);
       transform: rotate(-135deg); } }
+.imgLogo video {
+  -webkit-box-shadow: 10px 10px 5px 0px black;
+  -moz-box-shadow: 10px 10px 5px 0px black;
+  box-shadow: 10px 10px 5px 0px black; }
 
 /*# sourceMappingURL=lb_style.css.map */
