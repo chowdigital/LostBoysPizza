@@ -14,21 +14,17 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-	<div class="blackText">
-			<h2><span class="main-text skew">
-						Win free pizza for a year
-    						<span class="back-text glitch">Win free pizza for a year</span>
-  					</span>
-  				</h2>
-			<h4>Sell your <s>soul</s> <span id="corection">email</span>, maybe win some pizza.</h4> 
+		<div class="blackText">
+				<h2><span class="main-text skew">
+							Win free pizza for a year
+	    						<span class="back-text glitch">Win free pizza for a year</span>
+	  					</span>
+	  				</h2>
+				<h4>Sell your <s>soul</s> <span id="corection">email</span>, maybe win some pizza.</h4> 
+			</div>
 		</div>
-	</div>
-		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+</div><!-- #scanlines-->
 </div><!-- #page -->
-
-<?php wp_footer(); ?>
-</div></div>
 </body>
 </html>

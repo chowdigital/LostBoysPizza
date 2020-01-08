@@ -217,11 +217,12 @@ strong {
     text-align: center;
     height: 100vh; } }
 .site-footer {
-  padding: 2em;
+  padding: 0em 2em;
   text-align: left;
-  background-image: url("img/graveyard.png");
+  background-image: url("../img/graveyard.png");
   background-position: center;
-  padding-top: 300px; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .site-content {
   -webkit-transition: -webkit-transform 0.28s, opacity 0.28s;
