@@ -23,10 +23,11 @@
 <body <?php body_class(); ?>>
 	<wrapper id="wrapper">
 		<div class="scanlines">
+			
 			<div id="page" class="site">
 				<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'lostboys2020' ); ?></a>
 
-				<header id="masthead" class="site-header">
+				<header id="masthead" class="site-header scene_element--fadein">
 					<div class="site-branding">
 			<!--<?php
 			the_custom_logo();
@@ -74,6 +75,6 @@
 	
 			</div>
 		</section>
-		<div id="content" class="site-content">
+		<div id="content" class="site-content scene_element scene_element--fadein">
 
 
