@@ -2,13 +2,36 @@
 .nav-menu
 	float: right
 	padding-top: 10px
-
+	position: fixed
+	right: 0
+	
 .main-navigation
+	background: #000
+	position: fixed
+	height: 58px
+	-webkit-box-shadow: 0px 13px 19px 2px rgba(0,0,0,1)
+	-moz-box-shadow: 0px 13px 19px 2px rgba(0,0,0,1)
+	box-shadow: 0px 13px 19px 2px rgba(0,0,0,1)
+
 	li
 		width: 100%
 		height: 1.5em
 		font-size: 1.5em
-		text-align: center 
+		text-align: center
+
+
+@media screen and (max-width: $breakmax)		
+	.nav-menu
+		float: right
+		padding-top: 10px
+		position: fixed
+		right: 0
+		height: 100vh
+		background: #000
+		top: 0
+		padding-top: 50px
+		z-index: 50
+
 
 @media screen and (min-width: $breakmin)
 	//hide home button on large screens
@@ -20,6 +43,8 @@
 			width: 150px
 			height: 50px
 			font-size: 30px
+			a
+				padding-top: 7px
 
 @media screen and (max-width: $breakmax)
 	.menu-toggle
@@ -27,10 +52,10 @@
 		border: none
 
 	#hamburger
-		top: 8px
+		top: 12px
 		width: 40px
 		height: 35px
-		position: relative
+		position: fixed
 		float: right
 		-webkit-transform: rotate(0deg)
 		-moz-transform: rotate(0deg)
@@ -41,6 +66,7 @@
 		-o-transition: .5s ease-in-out
 		transition: .5s ease-in-out
 		cursor: pointer
+		z-index: 51
 
 		& span
 			display: block
@@ -93,7 +119,43 @@
 			-o-transform: rotate(-135deg)
 			transform: rotate(-135deg)
 
+.imgLogo
+	padding-top: 100px
 .imgLogo video
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1)	
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1)
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,1)
+
+.bookGif
+	background-image: url('../img/book/book.gif')
+	background-repeat: no-repeat
+	background-position: center
+	a
+		color: transparent
+
+.book
+	position: fixed
+	right: 0px
+	top: 0px
+
+@media screen and (min-width: $breakmin)
+	.book img
+		display: none
+
+.imgLogo video
+	padding-top: 1em
+	-webkit-box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 1)
+	-moz-box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 1)
+	box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 1)
+
+@media screen and (max-width: $breakmin)
+	.logoSection
+		background-color: #000
+		-webkit-box-shadow: 0px 13px 19px 2px rgba(0,0,0,1)
+		-moz-box-shadow: 0px 13px 19px 2px rgba(0,0,0,1)
+		box-shadow: 0px 13px 19px 2px rgba(0,0,0,1)
+		text-align: center
+		height: 100vh
+
+@media screen and (min-width: $breakmax)
+	.logoSection
