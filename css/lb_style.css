@@ -222,6 +222,7 @@ strong {
   background-image: url("../img/graveyard.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 300px;
   bottom: 0;
   color: #000; }
@@ -275,6 +276,19 @@ strong {
   .contactLink {
     display: flex;
     width: auto; } }
+.mc-field-group input, .mc-field-group input:active {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: 0px;
+  border-radius: 0px;
+  font-family: shlop, sans-serif;
+  font-size: 1.3em;
+  margin: 0.1em 0em; }
+
+#mce-FNAME, #mce-LNAME, #mce-EMAIL {
+  color: red; }
+
 .site-content {
   -webkit-transition: -webkit-transform 0.28s, opacity 0.28s;
   -ms-transition: -o-transform 0.28s, opacity 0.28s;
