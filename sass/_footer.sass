@@ -39,7 +39,6 @@
 
 
 .contactLink
-	margin: 0em 1em
 	align-self: center
 	height: 100%
 	width: 100%
@@ -66,25 +65,36 @@
 
 	
 // Mail Chimp Form
+#mc_embed_signup
+	margin-bottom: 2em
 
-.mc-field-group input, .mc-field-group input:active
+#mc-embedded-subscribe, .mc-field-group input, .mc-field-group input:active
 	width: 100%
 	background: rgba(0,0,0,0.6)
 	color: #fff
 	border: 0px
 	border-radius: 0px
 	font-family: shlop, sans-serif
-	font-size: 1.3em
+	font-size: 30px
 	margin: 0.1em 0em
+	padding: 0.1em 0.2em
+	height: 50px
+
+#mc-embedded-subscribe
+	color: red
+	padding: 0.2em 0.2em
 
 #mce-FNAME, #mce-LNAME, #mce-EMAIL
 	color: red
 
 
 
-	
+@media screen and (min-width: $breakmax)
+	.footerGrid
+		display: flex
+		justify-content: space-around
 
-
-
+	#mc-embedded-subscribe, .mc-field-group input, .mc-field-group input:active
+		width: 200px
 
 

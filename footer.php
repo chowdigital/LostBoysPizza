@@ -51,7 +51,7 @@
 					</div>
 				</div>
 
-			</div>	
+		
 
 			<div id="mce-responses" class="clear">
 				<div class="response" id="mce-error-response" style="display:none"></div>
@@ -63,6 +63,7 @@
 
 				<input type="submit" value="Sell" name="subscribe" id="mc-embedded-subscribe" class="button">
 			</div>
+		</div>
 		</form>
 	</div>
 
