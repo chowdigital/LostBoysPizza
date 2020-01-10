@@ -16,6 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="https://use.typekit.net/fwq1urf.css">
 
 	<?php wp_head(); ?>
 </head>
@@ -57,6 +58,11 @@
 					</video>
 	
 			</div>
+			<!--
+			<div class="headingBox">
+			<span class="main-text skew"><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+    <span class="back-text glitch"><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></span>
+  </span></div>-->
 		</section>
 		<div id="content" class="site-content scene_element scene_element--fadein">
 

@@ -1,12 +1,12 @@
-.menu-main-menu-container, .primary-menu
-	z-index: 998
+header
+	z-index: 999
 
 .nav-menu
 	float: right
 	padding-top: 10px
 	position: fixed
 	right: 0
-	z-index: 999
+
 	
 .main-navigation
 	background: #000
@@ -161,10 +161,25 @@
 
 .site-content
 	padding: 0em 1em
-	z-index: -1
+	z-index: 1
 	position: relative
 
 @media screen and (min-width: $breakmax)
 	.site-content
 		padding: 0em 2em
 
+.headingBox
+	padding: 1em
+	position: absoulute
+	bottom: 2em
+	z-index: 40
+
+.main-text
+	h1
+		font-size: 2.5em
+
+
+@media screen and (min-width: $breakmax)	
+	.headingBox
+		padding: 2em
+		text-align: right

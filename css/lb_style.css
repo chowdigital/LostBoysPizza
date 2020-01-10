@@ -80,15 +80,14 @@ strong {
   font-weight: 900;
   text-transform: uppercase; }
 
-.menu-main-menu-container, .primary-menu {
-  z-index: 998; }
+header {
+  z-index: 999; }
 
 .nav-menu {
   float: right;
   padding-top: 10px;
   position: fixed;
-  right: 0;
-  z-index: 999; }
+  right: 0; }
 
 .main-navigation {
   background: #000;
@@ -218,12 +217,25 @@ strong {
     height: 100vh; } }
 .site-content {
   padding: 0em 1em;
-  z-index: -1;
+  z-index: 1;
   position: relative; }
 
 @media screen and (min-width: 899px) {
   .site-content {
     padding: 0em 2em; } }
+.headingBox {
+  padding: 1em;
+  position: absoulute;
+  bottom: 2em;
+  z-index: 40; }
+
+.main-text h1 {
+  font-size: 2.5em; }
+
+@media screen and (min-width: 899px) {
+  .headingBox {
+    padding: 2em;
+    text-align: right; } }
 .site-footer {
   padding: 2em;
   text-align: center;
@@ -395,21 +407,19 @@ strong {
   .pizza img {
     width: 100%; }
 
-.line1 {
-  position: absolute;
-  top: 10%;
-  left: 20%;
-  background: #000; }
-  .line1 h2 {
-    padding: 0.1em 0.5em;
-    margin: 0 0; }
-
-.line2 {
+.pizzaText {
   position: absolute;
   top: 40%;
-  right: 20%;
-  background: #000; }
-  .line2 h2 {
+  right: 0px; }
+
+.line1 {
+  background: #000;
+  margin-bottom: 0.3em;
+  text-align: right; }
+  .line1 h2 {
+    font-family: hydrophilia-iced, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     padding: 0.1em 0.5em;
     margin: 0 0; }
 
