@@ -105,3 +105,64 @@
 
 .storyContent
 
+// Menu
+.menu
+	width: 100%
+	margin: 0em -2em
+
+.leftPixBox
+	width: 70%
+	float: left
+
+.pizzaMenu
+	width: 20%
+	float: left
+
+.menuLink
+	margin-top: 1em
+	position: relative
+	width: 100%
+	padding-bottom: 100%
+	display: flex
+	flex-direction: column
+	border-style: solid
+	border-color: #fff
+	-moz-transition: all 0.2s ease-in
+	-webkit-transition: all 0.2s ease-in
+	-o-transition: all 0.2s ease-in
+	transition: all 0.2s ease-in
+	img
+		position: absolute
+		width: 100%
+		height: 100%
+		object-fit: cover
+ 
+.menuLink:hover
+	border-color: #881E1E
+
+
+.bottom
+	align-self: flex-end
+	position: absolute
+	padding-top: 1em
+	display: inline-block
+	background: #881E1E
+	color: #fff
+	text-decoration: none
+	padding: 0em 1em
+	margin: .5em 0
+	clip-path: polygon(10px 113px, 393px 131px, 361px 4px, 0px 0px)
+	margin-right: -0.5em
+	-webkit-transition: margin-right 0.2s ease-in-out
+	-o-transition: margin-right 0.2s ease-in-out
+	transition: margin-right 0.2s ease-in-out
+	h4
+		line-height: 0em
+		padding: 0em 0em
+		-moz-transition: padding 0.2s ease-in-out
+		-webkit-transition: padding 0.2s ease-in-out
+		-o-transition: padding 0.2s ease-in-out
+		transition: padding 0.2s ease-in-out
+
+.menuLink:hover .bottom h4
+	padding: 0em 1em
