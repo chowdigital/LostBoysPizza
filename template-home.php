@@ -9,8 +9,21 @@
 
 
 </section>
-<section class="instagram"></section>
-<section class="contact"></section>
+<section class="instagram">
+	<h2>Welcome to Lost Boys</h2>
+	<h3>Lost Boys Instagram</h3>
+	<div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'Ob2K-Q9yzx1WO7hvXPxZ'});Pixlee.addSimpleWidget({widgetId:'24475'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+</section>
+<section class="contact">
+	<div class="contactInfo">
+		<h2>CONTACT</h2>
+		<p>CALL US: 020 7388 2101</p>
+		<p>Enquireys: fangs@lostboyspizza.com</p>
+		<p>Bookings: fangs@lostboyspizza.com</p>
+		<h2>LOCATION</h2>
+		<p>245 Eversholt St, London NW1 1BA</p>
+	</div>
+</section>
 <section class="blog"></section>
 <section class="menu"></section>
 <section class="promo"></section>
