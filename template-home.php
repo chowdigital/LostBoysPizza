@@ -23,139 +23,126 @@
 	</div>
 </section>
 <section class="blog">
-<div class="blogHeading"><h2>The Pizza Diaries</h2></div>	
+	<div class="blogHeading"><h2>The Pizza Diaries</h2></div>	
 
-<?php
+	<?php
 // The Query
-$the_query = new WP_Query( 'posts_per_page=3' );
- 
+	$the_query = new WP_Query( 'posts_per_page=3' );
+
 // The Loop
-if ( $the_query->have_posts() ) {
-    while ( $the_query->have_posts() ) {
-        $the_query->the_post();
-      ?>		<div class="homeBlog">
-						<div class="storyImage">
-							<a href="<?php the_permalink(); ?>">
-								<img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
-							</a>
-						</div>
-						<div class="storyContent">
-							<a href="<?php the_permalink(); ?>">
-								<P><strong><?php the_title(); ?></strong></P>
-							</a>
-						</div>
-</div>
-				<?php 
+	if ( $the_query->have_posts() ) {
+		while ( $the_query->have_posts() ) {
+			$the_query->the_post();
+			?>		
+			<div class="homeBlog">
+				<div class="storyImage">
+					<a href="<?php the_permalink(); ?>">
+						<img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+					</a>
+				</div>
+				<div class="storyContent">
+					<a href="<?php the_permalink(); ?>">
+						<P><strong><?php the_title(); ?></strong></P>
+					</a>
+				</div>
+			</div>
+			<?php 
 			
 
 
-        
-	
 
-    }
-} else {
+
+
+		}
+	} else {
     // no posts found
-}
-/* Restore original Post Data */
-wp_reset_postdata();
- 
-?>
+	}
+	/* Restore original Post Data */
+	wp_reset_postdata();
+
+	?>
 </section>
 
 
-<section class="menu">
+<section class="menuSection">
 
 
 
-					<h1><span class="main-text skew">
-							Menu
-	    						<span class="back-text glitch">Menu</span>
-	  					</span>
-	  				</h1>
-				
-			
-					
-				
-		
+	<h1><span class="main-text skew">
+		Menu
+		<span class="back-text glitch">Menu</span>
+	</span>
+</h1>
 
 
-	
 
 
-			
-		<div class="leftPicBox">
-				
-			<img src="<?php echo get_template_directory_uri(); ?>/img/pizza2cutout.png" alt="">
 
-			</div>
 
-		
-		<div class="pizzaMenu">
-			
-			
+
+
+
+
+
+<div class="leftPicBox">
+
+	<img src="<?php echo get_template_directory_uri(); ?>/img/pizza2cutout.png" alt="">
+
+</div>
+
+
+<div class="pizzaMenu">
+
+
 
 	<a href="<?php the_field('MAIN_MENU'); ?>" class="menuLink">
-	  <img src="<?php echo get_template_directory_uri(); ?>/img/menu/pizza.jpg" alt="Avatar">
-	  <div class="bottom">
-	  	<h4>MAIN MENU</h4>
-	   <!--<div class="text"><h1>PIZZA</h1></div>-->
-	  </div>
+		<img src="<?php echo get_template_directory_uri(); ?>/img/menu/pizza.jpg" alt="Avatar">
+		<div class="bottom">
+			<h4>MAIN MENU</h4>
+			<!--<div class="text"><h1>PIZZA</h1></div>-->
+		</div>
 	</a>
 
 	<a href="<?php the_field('BRUNCH'); ?>" class="menuLink">
-	  <img src="<?php echo get_template_directory_uri(); ?>/img/menu/brunch.jpg" alt="Avatar">
-	  <div class="bottom">
-	  	<h4>BRUNCH</h4>
-	   <!--<div class="text"><h1>PIZZA</h1></div>-->
-	  </div>
+		<img src="<?php echo get_template_directory_uri(); ?>/img/menu/brunch.jpg" alt="Avatar">
+		<div class="bottom">
+			<h4>BRUNCH</h4>
+			<!--<div class="text"><h1>PIZZA</h1></div>-->
+		</div>
 	</a>
 
 	<a href="<?php the_field('DESSERTS'); ?>" class="menuLink">
-	  <img src="<?php echo get_template_directory_uri(); ?>/img/menu/dessert.jpg" alt="Avatar">
-	  <div class="bottom">
-	  	<h4>DESSERTS</h4>
-	   <!--<div class="text"><h1>PIZZA</h1></div>-->
-	  </div>
+		<img src="<?php echo get_template_directory_uri(); ?>/img/menu/dessert.jpg" alt="Avatar">
+		<div class="bottom">
+			<h4>DESSERTS</h4>
+			<!--<div class="text"><h1>PIZZA</h1></div>-->
+		</div>
 	</a>
 
 	<a href="<?php the_field('DRINKS'); ?>" class="menuLink">
-	  <img src="<?php echo get_template_directory_uri(); ?>/img/menu/drink.jpg" alt="Avatar">
-	  <div class="bottom">
-	  	<h4>DRINKS</h4>
-	   <!--<div class="text"><h1>PIZZA</h1></div>-->
-	  </div>
+		<img src="<?php echo get_template_directory_uri(); ?>/img/menu/drink.jpg" alt="Avatar">
+		<div class="bottom">
+			<h4>DRINKS</h4>
+			<!--<div class="text"><h1>PIZZA</h1></div>-->
+		</div>
 	</a>
 
 	<a href="<?php the_field('PARTY'); ?>" class="menuLink">
-	  <img src="<?php echo get_template_directory_uri(); ?>/img/menu/party.jpg" alt="Avatar">
-	  <div class="bottom">
-	  	<h4>PARTY</h4>
-	   <!--<div class="text"><h1>PIZZA</h1></div>-->
-	  </div>
+		<img src="<?php echo get_template_directory_uri(); ?>/img/menu/party.jpg" alt="Avatar">
+		<div class="bottom">
+			<h4>PARTY</h4>
+			<!--<div class="text"><h1>PIZZA</h1></div>-->
+		</div>
 	</a>
 	
 
+</div>
+	
 
 
-	  				  </div>
-		<!--<div class="imageBox">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/pizza1cutout.png" alt="">
-
-			</div>-->
-
-								<!--<?php the_field('pizzaIntro'); ?>
-
-								<?php the_field('pizza'); ?>-->
+						</section>
+						<section class="promo"></section>
 
 
 
-
-		</div>
-
-
-</section>
-<section class="promo"></section>
-
-
-
-<?php get_footer(); ?>
+						<?php get_footer(); ?>
