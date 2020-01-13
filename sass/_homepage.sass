@@ -39,16 +39,35 @@
 	padding-bottom: 2em
 
 // Contact
-
 .contact
+	height: 100vh
+	overflow-x: hidden
+	overflow-y: auto
+	perspective: 2px
 	margin: 0em -2em
+
+.contactWrap
+
 	text-align: center
 	background-image: url("../img/contact.jpg")
 	background-position: center
 	background-repeat: no-repeat
 	background-size: cover
 	overflow: hidden
-	min-height: 1000px
+	position: relative
+	height: 100vh
+
+.parallax::after
+	content: " "
+	position: absolute
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+
+.bg1::after
+	background-image: url('../img/contact.jpg')
+
 
 .contactInfo
 	width: 40%
