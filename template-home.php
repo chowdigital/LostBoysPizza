@@ -4,10 +4,6 @@
 	<div class="line1"><h2>Black Charcoal Pizza</h2></div>
 	<div class="line2"><h2>Killer Cocktails</h2></div>
 	<div class="line3"><h2>All served with a banging 80s playlist</h2></div>
-	
-
-
-
 </section>
 <section class="instagram">
 	<h2>Welcome to Lost Boys</h2>
@@ -26,8 +22,48 @@
 		</div>
 	</div>
 </section>
-<section class="blog"></section>
-<section class="menu"></section>
+<section class="blog">
+<div class="blogHeading"><h2>The Pizza Diaries</h2></div>	
+
+<?php
+// The Query
+$the_query = new WP_Query( 'posts_per_page=3' );
+ 
+// The Loop
+if ( $the_query->have_posts() ) {
+    while ( $the_query->have_posts() ) {
+        $the_query->the_post();
+      ?>		<div class="homeBlog">
+						<div class="storyImage">
+							<a href="<?php the_permalink(); ?>">
+								<img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+							</a>
+						</div>
+						<div class="storyContent">
+							<a href="<?php the_permalink(); ?>">
+								<P><strong><?php the_title(); ?></strong></P>
+							</a>
+						</div>
+</div>
+				<?php 
+			
+
+
+        
+	
+
+    }
+} else {
+    // no posts found
+}
+/* Restore original Post Data */
+wp_reset_postdata();
+ 
+?>
+</section>
+<section class="menu">
+	
+</section>
 <section class="promo"></section>
 
 
