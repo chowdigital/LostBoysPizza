@@ -8,7 +8,8 @@
 <section class="instagram">
 	<h2>Welcome to Lost Boys</h2>
 	<h3>Lost Boys Instagram</h3>
-	<div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'Ob2K-Q9yzx1WO7hvXPxZ'});Pixlee.addSimpleWidget({widgetId:'24475'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/9f45f5bfc68d501ba253cf5e24a97033.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:1em;overflow:hidden;"></iframe>
+
 </section>
 <section class="contact">
 	<div class="contactWrap">

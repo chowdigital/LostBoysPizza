@@ -13,6 +13,37 @@
 
 </div><!-- #content -->
 
+
+<!-------- Google Reviews 
+<div class="dottedBottom grid">
+	<div class="d1-12">
+    	<h2>Google Reviews</h2>
+   	</div>
+	<div class="d1-12 floatRight">
+    	<a href="https://www.google.com/search?ei=dNh2XL3sBJiEjLsPqb6imA8&q=CROQUE+MONSIEUR+absynth&oq=CROQUE+MONSIEUR+absynth&gs_l=psy-ab.3..0i13l2.1392.3192..3392...0.0..0.184.839.6j2......0....1..gws-wiz.......0i71j0i20i263j0j0i67j0i22i30j33i160.VUySLkGf4Bo#lrd=0x48761b332c312583:0x52667f38962a51ce,1,,," class="btn-red">
+    	 <p><strong>SEE ALL REVIEWS</strong></p></a>
+   	</div>
+   	<div class="box6">
+     	<div id="google-reviews"></div>
+   	</div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css">
+
+  <script src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js"></script>
+ 
+
+  <script>
+    jQuery(document).ready(function( $ ) {
+     $("#google-reviews").googlePlaces({
+        placeId: 'ChIJgyUxLDMbdkgRzlEqljh_ZlI' //Find placeID @: https://developers.google.com/places/place-id
+        , render: ['reviews']
+        , min_rating: 5
+        , max_rows: 4
+      });
+   });
+ </script>
+-->
 <footer id="colophon" class="site-footer">
 
 	<!-- TEXT -->
@@ -103,5 +134,7 @@
 
 <?php wp_footer(); ?>
 </div></div>
+
 </body>
+ 
 </html>
