@@ -1,3 +1,8 @@
+.lbSectionTitle
+	background: $highlight
+	padding: 0.3em
+
+
 // Pizza
 
 .pizza
@@ -49,24 +54,26 @@
 	float: left
 	flex-grow: 1
 	margin-left: -4em
+	display: none
 
 .rightTextContact
-	text-align: right
+	text-align: left
 	width: 100%
 	float: right
-	margin-right: 2em
-	h2
-		font-size: 1.4em
+	
 
 @media screen and (min-width: $breakmax)
 	.contactArea
 		display: flex
 
 	.leftPicContact
+		display: block
 		width: 70%
 	
 	.rightTextContact
 		width: 30%
+		text-align: right
+		margin-right: 2em
 
 
 
@@ -109,9 +116,14 @@
 	margin: 2em 2em
 
 .leftPicBox
-	width: 100%
-	float: left
-	margin: 0em -4em
+	display: none
+
+@media screen and (min-width: $breakmax)
+	.leftPicBox
+		display: block
+		width: 100%
+		float: left
+		margin: 0em -4em
 
 
 .pizzaMenu

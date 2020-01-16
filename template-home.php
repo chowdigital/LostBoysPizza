@@ -15,13 +15,16 @@
 	</div>
 </section>
 
+<hr class="dotty">
 
 <section class="instagram">
-	<h2>Welcome to Lost Boys</h2>
+	<h2 class="lbSectionTitle">Welcome to Lost Boys</h2>
+
 	<h3>Lost Boys Instagram</h3>
 <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/9f45f5bfc68d501ba253cf5e24a97033.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:1em;overflow:hidden;"></iframe>
 
 </section>
+<hr class="dotty">
 <section class="contactArea">
 		<div class="leftPicContact">
 		<img src="<?php echo get_template_directory_uri(); ?>/img/pizza1.png" alt="Pizza">
@@ -31,17 +34,34 @@
 		CONTACT
 		<span class="back-text glitch">CONTACT</span>
 	</span></h2>
-			<p>CALL US: 020 7388 2101</p>
-			<p>Enquireys: fangs@lostboyspizza.com</p>
-			<p>Bookings: fangs@lostboyspizza.com</p>
+			<p><strong>
+					<a href="tel:02072728955">Phone:	020 7388 2101</a>
+	       		 </strong></p>
+			
+			 <p><strong>
+	           		 <a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Enquireys: fangs@lostboyspizza.com</a>
+	      		 </strong></p>
+	      	 <p><strong>
+	           		 <a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Bookings: fangs@lostboyspizza.com</a>
+	      		 </strong></p>
 			<h2><span class="main-text skew">
 		LOCATION
 		<span class="back-text glitch">LOCATION</span>
-	</span></h2>
-			<p>245 Eversholt St, London NW1 1BA</p>
+</span></h2>
+		<strong>
+	           		 <a href="https://www.google.com/maps/place/Lost+Boys+Pizza+Camden/@51.5336039,-0.1378751,15z/data=!4m5!3m4!1s0x0:0x9e9cf7ac30c9cc68!8m2!3d51.5336039!4d-0.1378751" target="_top">Open in Google Maps</a>
+	      		 </strong>
+
+
+		
+
+	
+			<p><strong>245 Eversholt St, London NW1 1BA</strong></p>
 		</div>
 	
 </section>
+
+<hr class="dotty">
 <!--<section class="blog">
 	<div class="blogHeading"><h2>The Pizza Diaries</h2></div>	
 

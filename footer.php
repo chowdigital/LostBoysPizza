@@ -46,11 +46,11 @@
 -->
 
 <section class="dmnBooking">
-	<hr class="pacman">
+	<hr class="dotty">
 
 		<h2><span class="main-text skew">
-		Book
-		<span class="back-text glitch">Book</span>
+		Make a booking
+		<span class="back-text glitch">Make a booking</span>
 	</span>
 </h2>
 	    <script src="//widgets.designmynight.com/bookings-partner.min.js" dmn-booking-form="true" venue="5bd825217864b53b6f501974" hide-offers="false" hide-powered-by="false" search-venues="false" monday-first="true"></script>
@@ -130,12 +130,12 @@
 	
 		<div class="contactLink">
 				 <p><strong>
-	           		 <a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">fangs@lostboyspizza.com</a>
+	           		 <a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Email: fangs@lostboyspizza.com</a>
 	      		 </strong></p>
 	   	</div>
 		<div class="contactLink">
 	            <p><strong>
-					<a href="tel:02072728955">	020 7272 8955</a>
+					<a href="tel:02073882101">Call:	020 7388 2101</a>
 	       		 </strong></p>
 		</div>
 		
