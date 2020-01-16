@@ -10,7 +10,7 @@
 	width: 100%
 	float: right
 	flex-grow: 1
-	margin: 0em -4em
+	margin-right: -4em
 
 .leftTextBox
 	text-align: left
@@ -35,42 +35,40 @@
 // Instagram
 .instagram
 	padding-bottom: 2em
+	margin: 2em 0em
 
 // Contact
-.contact
-	height: 100vh
-	overflow-x: hidden
-	overflow-y: auto
-	perspective: 2px
-	margin: 0em -2em
-
-.contactWrap
-
-	text-align: center
-	background-image: url("../img/contact.jpg")
-	background-position: center
-	background-repeat: no-repeat
-	background-size: cover
-	overflow: hidden
+.contactArea
 	position: relative
-	height: 100vh
+	text-align: center
+	color: white
+	align-items: center
 
-.parallax::after
-	content: " "
-	position: absolute
-	top: 0
-	right: 0
-	bottom: 0
-	left: 0
+.leftPicContact
+	width: 100%
+	float: left
+	flex-grow: 1
+	margin-left: -4em
 
-.bg1::after
-	background-image: url('../img/contact.jpg')
-
-
-.contactInfo
-	width: 40%
+.rightTextContact
+	text-align: right
+	width: 100%
 	float: right
-	text-align: left
+	margin-right: 2em
+	h2
+		font-size: 1.4em
+
+@media screen and (min-width: $breakmax)
+	.contactArea
+		display: flex
+
+	.leftPicContact
+		width: 70%
+	
+	.rightTextContact
+		width: 30%
+
+
 
 // Blog
 .blog
@@ -79,6 +77,7 @@
 	flex-wrap: wrap
 	justify-content: space-between
 	height: 100%
+	width: 100%
 
 .blogHeading
 	width: 100%

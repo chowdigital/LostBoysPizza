@@ -20,21 +20,29 @@
 	<h2>Welcome to Lost Boys</h2>
 	<h3>Lost Boys Instagram</h3>
 <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/9f45f5bfc68d501ba253cf5e24a97033.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:1em;overflow:hidden;"></iframe>
-..lightwidget, .lightwidget *
+
 </section>
-<section class="contact">
-	<div class="contactWrap">
-		<div class="contactInfo">
-			<h2>CONTACT</h2>
+<section class="contactArea">
+		<div class="leftPicContact">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/pizza1.png" alt="Pizza">
+	</div>
+		<div class="rightTextContact">
+			<h2><span class="main-text skew">
+		CONTACT
+		<span class="back-text glitch">CONTACT</span>
+	</span></h2>
 			<p>CALL US: 020 7388 2101</p>
 			<p>Enquireys: fangs@lostboyspizza.com</p>
 			<p>Bookings: fangs@lostboyspizza.com</p>
-			<h2>LOCATION</h2>
+			<h2><span class="main-text skew">
+		LOCATION
+		<span class="back-text glitch">LOCATION</span>
+	</span></h2>
 			<p>245 Eversholt St, London NW1 1BA</p>
 		</div>
-	</div>
+	
 </section>
-<section class="blog">
+<!--<section class="blog">
 	<div class="blogHeading"><h2>The Pizza Diaries</h2></div>	
 
 	<?php
@@ -72,7 +80,7 @@
 	/* Restore original Post Data */
 	wp_reset_postdata();
 
-	?>
+	?>-->
 </section>
 
 
