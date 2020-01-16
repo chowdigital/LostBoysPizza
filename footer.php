@@ -44,6 +44,9 @@
    });
  </script>
 -->
+<section class="dmnBooking">
+	    <script src="//widgets.designmynight.com/bookings-partner.min.js" dmn-booking-form="true" venue="5bd825217864b53b6f501974" hide-offers="false" hide-powered-by="false" search-venues="false" monday-first="true"></script>
+</section>
 <footer id="colophon" class="site-footer">
 
 	<!-- TEXT -->
