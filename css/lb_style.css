@@ -401,37 +401,32 @@ strong {
 .pizza {
   position: relative;
   text-align: center;
-  color: white; }
-  .pizza img {
-    width: 100%; }
+  color: white;
+  align-items: center; }
 
-.line1 {
-  position: absolute;
-  top: 10%;
-  left: 20%;
-  background: #000; }
-  .line1 h2 {
-    padding: 0.1em 0.5em;
-    margin: 0 0; }
+.rightPicBox {
+  width: 100%;
+  float: right;
+  flex-grow: 1;
+  margin: 0em -4em; }
 
-.line2 {
-  position: absolute;
-  top: 40%;
-  right: 20%;
-  background: #000; }
-  .line2 h2 {
-    padding: 0.1em 0.5em;
-    margin: 0 0; }
+.leftTextBox {
+  text-align: left;
+  width: 100%;
+  float: left;
+  margin-right: 2em; }
+  .leftTextBox h2 {
+    font-size: 1.4em; }
 
-.line3 {
-  position: absolute;
-  bottom: 40%;
-  right: 0%;
-  background: #000; }
-  .line3 h2 {
-    padding: 0.1em 0.5em;
-    margin: 0 0; }
+@media screen and (min-width: 899px) {
+  .pizza {
+    display: flex; }
 
+  .rightPicBox {
+    width: 70%; }
+
+  .leftTextBox {
+    width: 30%; } }
 .instagram {
   padding-bottom: 2em; }
 
@@ -566,6 +561,10 @@ strong {
 
 .menuLink:hover .bottom h4 {
   padding: 0em 1em; }
+
+hr.pacman {
+  padding-top: 2em;
+  border: 0; }
 
 .dmnBooking {
   margin: 2em 2em; }

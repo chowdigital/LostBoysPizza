@@ -1,15 +1,26 @@
 <?php /* Template Name: Lost Boys Homepage */ get_header(); ?>
 <section class="pizza">
-	<img src="<?php echo get_template_directory_uri(); ?>/img/pizza1.png" alt="Pizza">
-	<div class="line1"><h2>Black Charcoal Pizza</h2></div>
-	<div class="line2"><h2>Killer Cocktails</h2></div>
-	<div class="line3"><h2>All served with a banging 80s playlist</h2></div>
+
+	<div class="leftTextBox">
+
+	<h2>Black Charcoal Pizza</h2>
+	<h2><span class="main-text skew">
+		Killer Cocktails
+		<span class="back-text glitch">Killer Cocktails</span>
+	</span></h2>
+	<h2>All served with a banging 80s playlist</h2>
+	</div>
+		<div class="rightPicBox">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/pizza1.png" alt="Pizza">
+	</div>
 </section>
+
+
 <section class="instagram">
 	<h2>Welcome to Lost Boys</h2>
 	<h3>Lost Boys Instagram</h3>
 <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/9f45f5bfc68d501ba253cf5e24a97033.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:1em;overflow:hidden;"></iframe>
-
+..lightwidget, .lightwidget *
 </section>
 <section class="contact">
 	<div class="contactWrap">
@@ -69,11 +80,11 @@
 
 
 
-	<h1><span class="main-text skew">
+	<h2><span class="main-text skew">
 		Menu
 		<span class="back-text glitch">Menu</span>
 	</span>
-</h1>
+</h2>
 
 
 

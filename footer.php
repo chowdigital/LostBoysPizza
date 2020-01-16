@@ -44,7 +44,15 @@
    });
  </script>
 -->
+
 <section class="dmnBooking">
+	<hr class="pacman">
+
+		<h2><span class="main-text skew">
+		Book
+		<span class="back-text glitch">Book</span>
+	</span>
+</h2>
 	    <script src="//widgets.designmynight.com/bookings-partner.min.js" dmn-booking-form="true" venue="5bd825217864b53b6f501974" hide-offers="false" hide-powered-by="false" search-venues="false" monday-first="true"></script>
 </section>
 <footer id="colophon" class="site-footer">
