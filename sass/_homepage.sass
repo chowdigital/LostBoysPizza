@@ -112,14 +112,26 @@
 	margin: 2em 2em
 
 .leftPicBox
-	width: 70%
+	width: 100%
 	float: left
 	margin: 0em -4em
 
 .pizzaMenu
-	width: 20%
+	width: 100%
+	margin: 0em 2em
 	float: right
 	margin-right: 2em
+
+@media screen and (min-width: $breakmax)
+	.leftPicBox
+		width: 70%
+		float: left
+		margin: 0em -4em
+
+	.pizzaMenu
+		width: 20%
+		float: right
+		margin-right: 2em
 
 .menuLink
 	margin-top: 1em

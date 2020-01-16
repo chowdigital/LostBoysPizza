@@ -499,15 +499,26 @@ strong {
   margin: 2em 2em; }
 
 .leftPicBox {
-  width: 70%;
+  width: 100%;
   float: left;
   margin: 0em -4em; }
 
 .pizzaMenu {
-  width: 20%;
+  width: 100%;
+  margin: 0em 2em;
   float: right;
   margin-right: 2em; }
 
+@media screen and (min-width: 899px) {
+  .leftPicBox {
+    width: 70%;
+    float: left;
+    margin: 0em -4em; }
+
+  .pizzaMenu {
+    width: 20%;
+    float: right;
+    margin-right: 2em; } }
 .menuLink {
   margin-top: 1em;
   position: relative;
@@ -561,9 +572,12 @@ strong {
 
 #dmn-partner-widget {
   max-width: 600px;
-  margin: auto;
-  width: 50%; }
+  width: 100%;
+  margin: auto; }
 
+@media screen and (min-width: 899px) {
+  max-width: 600px;
+  width: 50%; }
 #dmn-partner-widget .offers-header, #dmn-partner-widget #dmn-widget-inner {
   border: 3px solid #fff;
   border-bottom: 3px solid #fff;
