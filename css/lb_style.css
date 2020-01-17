@@ -714,4 +714,26 @@ hr.pacman {
   width: 300px;
   height: 300px; }
 
+.blogSection {
+  width: 100%; }
+
+.storyImageFull {
+  display: none; }
+
+.storyContentFull {
+  width: 100%; }
+
+@media screen and (min-width: 899px) {
+  .blogWrap {
+    display: flex; }
+
+  .storyImage {
+    width: 100%; }
+
+  .storyImageFull {
+    display: block; }
+
+  .storyContentFull {
+    flex-grow: 1; } }
+
 /*# sourceMappingURL=lb_style.css.map */
