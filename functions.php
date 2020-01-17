@@ -130,6 +130,12 @@ function lostboys2020_scripts() {
 
 	wp_enqueue_script( 'lostboys2020-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
+	wp_enqueue_script( 'isotope', 'https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js', array('jquery'), '1.0.0', true );
+
+	wp_enqueue_script( 'isotopeScript', get_template_directory_uri() . '/js/isotope.js', array('jquery'), '1.0.0', true);
+
+
+
 	
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -176,4 +182,3 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 		
 	} );
 
-	

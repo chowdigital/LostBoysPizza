@@ -63,6 +63,7 @@ h1, h2 {
   font-weight: 900; }
 
 h3 {
+  font-family: "alegreya";
   font-size: 1em;
   line-height: 1.5em;
   text-transform: uppercase;
@@ -658,5 +659,56 @@ hr.pacman {
 
 #dmn-partner-widget .offers-header .offers-header__button:hover {
   background-color: #881E1E; }
+
+.filter-button-group {
+  float: right; }
+
+.filter-button-group button {
+  border: 0; }
+  .filter-button-group button h3 {
+    color: #fff;
+    font-size: 1.5em; }
+
+.filter-button-group button:hover h3 {
+  color: #000; }
+
+.btn-all {
+  background: #130912; }
+
+.btn-what {
+  background: #881E1E; }
+
+.btn-press {
+  background: #602748; }
+
+.btn-fun {
+  background: #b14622; }
+
+.btn-updates {
+  background: #3d731c; }
+
+#catwhat {
+  background: #881E1E; }
+
+#catpress {
+  background: #602748; }
+
+#catfun {
+  background: #b14622; }
+
+#catupdates {
+  background: #3d731c; }
+
+.btn-iso:hover {
+  background: #fff;
+  color: #000; }
+
+.isotopeGrid {
+  width: 100%;
+  margin: 2em; }
+
+.single-content {
+  width: 25%;
+  float: left; }
 
 /*# sourceMappingURL=lb_style.css.map */

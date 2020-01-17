@@ -34,7 +34,7 @@
 <hr class="dotty">
 <section class="contactArea">
 		<div class="leftPicContact">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/pizza2.png" alt="Pizza">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/pizza2.gif" alt="Pizza">
 	</div>
 		<div class="rightTextContact">
 			<h2><span class="main-text skew">
@@ -133,7 +133,7 @@
 
 <div class="leftPicBox">
 
-	<img src="<?php echo get_template_directory_uri(); ?>/img/pizza2cutout.gif" alt="">
+	<img src="<?php echo get_template_directory_uri(); ?>/img/pizza2cutout.png" alt="">
 
 </div>
 
