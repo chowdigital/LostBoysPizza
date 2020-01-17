@@ -19,6 +19,7 @@
 		height: 1.5em
 		font-size: 1.5em
 		text-align: center
+		color: #fff
 
 
 @media screen and (max-width: $breakmin)		
@@ -31,6 +32,8 @@
 		background: #000
 		top: 0
 		padding-top: 50px
+		width: 100%
+
 
 
 @media screen and (min-width: $breakmax)
@@ -127,27 +130,32 @@
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1)
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,1)
 
-.bookGif
-	background-image: url('../img/book/book.gif')
-	background-repeat: no-repeat
-	background-position: center
-
-	a
-		color: transparent
-
-.bookGif:hover
-	background-image: url('../img/book/book2.gif')
-	background-repeat: no-repeat
-	background-position: center
 
 .book
 	position: fixed
 	right: 0px
 	top: 0px
 
+.bookGif
+	display: none
+
 @media screen and (min-width: $breakmax)
 	.book img
 		display: none
+
+	.bookGif
+		display: block
+		background-image: url('../img/book/book.gif')
+		background-repeat: no-repeat
+		background-position: center
+		a
+			color: transparent
+
+	.bookGif:hover
+		background-image: url('../img/book/book2.gif')
+		background-repeat: no-repeat
+		background-position: center
+
 
 .imgLogo video
 	padding-top: 1em

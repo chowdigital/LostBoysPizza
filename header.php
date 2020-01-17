@@ -43,7 +43,7 @@
 				'menu_id'        => 'primary-menu',
 			) );
 			?>
-			<a class="book" href="book">  <img width="150" height="auto" src="<?php echo get_template_directory_uri(); ?>/img/book/book.gif" alt="BOOK"></a>
+			<a class="book" href="#bookLink">  <img width="150" height="auto" src="<?php echo get_template_directory_uri(); ?>/img/book/book.gif" alt="BOOK"></a>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
