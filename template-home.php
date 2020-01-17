@@ -11,7 +11,7 @@
 	<h2>All served with a banging 80s playlist</h2>
 	</div>
 		<div class="rightPicBox">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/pizza1.png" alt="Pizza">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/pizza1.gif" alt="Pizza">
 	</div>
 
 </section>
@@ -27,13 +27,14 @@
 	
 
 	<h2>Lost Boys Instagram</h2>
-<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/9f45f5bfc68d501ba253cf5e24a97033.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:1em;overflow:hidden;"></iframe>
+<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/9f45f5bfc68d501ba253cf5e24a97033.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
 
 </section>
 <hr class="dotty">
 <section class="contactArea">
 		<div class="leftPicContact">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/pizza1.png" alt="Pizza">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/pizza2.png" alt="Pizza">
 	</div>
 		<div class="rightTextContact">
 			<h2><span class="main-text skew">
@@ -132,7 +133,7 @@
 
 <div class="leftPicBox">
 
-	<img src="<?php echo get_template_directory_uri(); ?>/img/pizza2cutout.png" alt="">
+	<img src="<?php echo get_template_directory_uri(); ?>/img/pizza2cutout.gif" alt="">
 
 </div>
 

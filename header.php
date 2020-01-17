@@ -49,13 +49,13 @@
 
 	<section class="logoSection">
 		<div class="imgLogo box">
-
+				<a href="home">
 				<video width="400" height="400" autoplay loop playsinline muted poster="<?php echo get_template_directory_uri(); ?>/img/logo/logo.jpg">
 					<source src="<?php echo get_template_directory_uri(); ?>/img/logo/logo3.mp4" type="video/mp4" />
 
 						Your browser does not support the video tag.
 					</video>
-	
+	</a>
 			</div>
 		</section>
 		<div id="content" class="site-content scene_element scene_element--fadein">
