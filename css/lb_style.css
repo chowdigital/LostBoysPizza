@@ -40,8 +40,15 @@ body {
   background-repeat: no-repeat; }
 
 a, .main-navigation li a {
-  color: #fff; }
-  a:hover, .main-navigation li a:hover {
+  color: #fff;
+  -o-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s; }
+  a:visited, .main-navigation li a:visited {
+    color: #fff; }
+  a:hover, a:active, .main-navigation li a:hover, .main-navigation li a:active {
     color: #333; }
 
 h1, h2, h3 {
@@ -299,6 +306,8 @@ strong {
   width: 1.5em;
   height: auto;
   margin: 0em 1em; }
+  .socialLink:hover, .socialLink:active {
+    opacity: 0.5; }
 
 @media screen and (min-width: 899px) {
   .contactWrapper {

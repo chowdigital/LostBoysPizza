@@ -54,9 +54,9 @@
 		LOCATION
 		<span class="back-text glitch">LOCATION</span>
 </span></h2>
-		<strong>
+		<p><strong>
 	           		 <a href="https://www.google.com/maps/place/Lost+Boys+Pizza+Camden/@51.5336039,-0.1378751,15z/data=!4m5!3m4!1s0x0:0x9e9cf7ac30c9cc68!8m2!3d51.5336039!4d-0.1378751" target="_top">Open in Google Maps</a>
-	      		 </strong>
+	      		 </strong></p>
 
 
 		
