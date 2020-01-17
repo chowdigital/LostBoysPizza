@@ -13,14 +13,20 @@
 		<div class="rightPicBox">
 		<img src="<?php echo get_template_directory_uri(); ?>/img/pizza1.png" alt="Pizza">
 	</div>
+
 </section>
 
+	<h1 class="lbSectionTitle"><span class="main-text skew">
+	Welcome to Lost Boys
+		<span class="back-text glitch">Welcome to Lost Boys</span>
+	</span></h1>
+
+
 <hr class="dotty">
-
 <section class="instagram">
-	<h2 class="lbSectionTitle">Welcome to Lost Boys</h2>
+	
 
-	<h3>Lost Boys Instagram</h3>
+	<h2>Lost Boys Instagram</h2>
 <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/9f45f5bfc68d501ba253cf5e24a97033.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:1em;overflow:hidden;"></iframe>
 
 </section>

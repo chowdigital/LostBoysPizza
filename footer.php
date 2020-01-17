@@ -45,7 +45,7 @@
  </script>
 -->
 
-<section class="dmnBooking">
+<section name="book" class="dmnBooking">
 	<hr class="dotty">
 
 		<h2><span class="main-text skew">

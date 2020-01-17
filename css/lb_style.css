@@ -197,6 +197,11 @@ strong {
   .bookGif a {
     color: transparent; }
 
+.bookGif:hover {
+  background-image: url("../img/book/book2.gif");
+  background-repeat: no-repeat;
+  background-position: center; }
+
 .book {
   position: fixed;
   right: 0px;
@@ -403,7 +408,9 @@ strong {
     transform: translate3d(0, 0, 0); } }
 .lbSectionTitle {
   background: #881E1E;
-  padding: 0.3em; }
+  padding: 0.3em;
+  text-align: center;
+  margin-top: 2em; }
 
 .pizza {
   position: relative;
@@ -497,7 +504,7 @@ strong {
 
 .menuSection {
   width: 100%;
-  margin: 2em 2em; }
+  margin: 0em 0em; }
 
 .leftPicBox {
   display: none; }
@@ -521,7 +528,7 @@ strong {
     margin: 0em -4em; }
 
   .pizzaMenu {
-    width: 20%;
+    width: 30%;
     float: right;
     margin-right: 2em; } }
 .menuLink {
