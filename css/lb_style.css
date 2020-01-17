@@ -39,9 +39,9 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
-a {
+a, .main-navigation li a {
   color: #fff; }
-  a:hover {
+  a:hover, .main-navigation li a:hover {
     color: #333; }
 
 h1, h2, h3 {
@@ -210,7 +210,7 @@ strong {
     background-repeat: no-repeat;
     background-position: center; }
     .bookGif a {
-      color: transparent; }
+      opacity: 0; }
 
   .bookGif:hover {
     background-image: url("../img/book/book2.gif");
