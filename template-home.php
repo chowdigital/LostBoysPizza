@@ -1,7 +1,9 @@
 <?php /* Template Name: Lost Boys Homepage */ get_header(); ?>
-<section class="pizza">
 
-	<div class="leftTextBox">
+
+<section class="pizzaBlock">
+
+	<div class="textArea">
 
 	<h2>Black Charcoal Pizza</h2>
 	<h2><span class="main-text skew">
@@ -10,8 +12,10 @@
 	</span></h2>
 	<h2>All served with a banging 80s playlist</h2>
 	</div>
-		<div class="rightPicBox">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/pizza1.gif" alt="Pizza">
+		
+		<div class="imgArea">
+			<div class="spinPizza"></div>
+
 	</div>
 
 </section>
@@ -122,7 +126,24 @@
 </h2>
 
 
+<section class="pizzaBlock">
 
+	<div class="textArea">
+
+	<h2>Black Charcoal Pizza</h2>
+	<h2><span class="main-text skew">
+		Killer Cocktails
+		<span class="back-text glitch">Killer Cocktails</span>
+	</span></h2>
+	<h2>All served with a banging 80s playlist</h2>
+	</div>
+		
+		<div class="imgArea">
+			<div class="spinPizza"></div>
+
+	</div>
+
+</section>
 
 
 

@@ -37,6 +37,9 @@ body {
   text-align: left;
   background: rgba(0, 0, 0, 0); }
 
+body, button, input, select, optgroup, textarea {
+  color: #fff; }
+
 @media screen and (min-width: 899px) {
   body {
     background: url("../img/moonWide.png");
@@ -432,35 +435,6 @@ strong {
   text-align: center;
   margin-top: 2em; }
 
-.pizza {
-  position: relative;
-  text-align: center;
-  color: white;
-  align-items: center; }
-
-.rightPicBox {
-  width: 100%;
-  float: right;
-  flex-grow: 1;
-  margin-right: -4em; }
-
-.leftTextBox {
-  text-align: left;
-  width: 100%;
-  float: left;
-  margin-right: 2em; }
-  .leftTextBox h2 {
-    font-size: 1.4em; }
-
-@media screen and (min-width: 899px) {
-  .pizza {
-    display: flex; }
-
-  .rightPicBox {
-    width: 70%; }
-
-  .leftTextBox {
-    width: 30%; } }
 .instagram {
   padding-bottom: 2em;
   margin: 2em 0em; }
@@ -741,5 +715,54 @@ hr.pacman {
 
   .storyContentFull {
     flex-grow: 1; } }
+.pizzaBlock {
+  width: 100%; }
+
+.imgArea {
+  width: 100%; }
+
+.spinPizza {
+  width: 300px;
+  height: 300px;
+  background-image: url("../img/pizza1sml.gif");
+  background-repeat: no-repeat;
+  margin: auto; }
+
+.textArea {
+  color: #fff;
+  text-align: left;
+  width: 100%;
+  margin-right: 2em; }
+  .textArea h2 {
+    font-size: 1.4em; }
+
+@media screen and (min-width: 899px) {
+  .pizzaBlock {
+    display: flex;
+    margin-top: -6em; }
+
+  .spinPizza {
+    width: 900px;
+    height: 900px;
+    background-image: url("../img/pizza1.gif"); }
+
+  .textArea {
+    width: 30%;
+    float: left;
+    margin: 0;
+    align-self: center; }
+
+  .imgArea {
+    width: 70%;
+    float: right;
+    margin: 0; } }
+.spinPizza {
+  -webkit-animation: rotation 100s infinite linear; }
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(359deg); } }
 
 /*# sourceMappingURL=lb_style.css.map */

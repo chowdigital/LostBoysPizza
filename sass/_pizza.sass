@@ -1,0 +1,59 @@
+// Pizza
+
+.pizzaBlock
+	width: 100%
+
+.imgArea
+	width: 100%
+
+
+.spinPizza
+	width: 300px
+	height: 300px
+	background-image: url("../img/pizza1sml.gif")
+	background-repeat: no-repeat
+	margin: auto
+
+.textArea
+	color: #fff
+	text-align: left
+	width: 100%
+	margin-right: 2em
+	h2
+		font-size: 1.4em
+
+@media screen and (min-width: $breakmax)
+	.pizzaBlock
+		display: flex
+		margin-top: -6em
+
+	.spinPizza
+		width: 900px
+		height: 900px
+		background-image: url("../img/pizza1.gif")
+
+	
+	.textArea
+		width: 30%
+		float: left
+		margin: 0
+		align-self: center
+
+	.imgArea
+		width: 70%
+		float: right
+		margin: 0
+
+
+
+
+
+.spinPizza
+	-webkit-animation: rotation 100s infinite linear
+
+
+@-webkit-keyframes rotation
+	from
+		-webkit-transform: rotate(0deg)
+	to
+		-webkit-transform: rotate(359deg)
