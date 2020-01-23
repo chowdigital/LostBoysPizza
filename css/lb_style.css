@@ -500,34 +500,12 @@ strong {
   width: 100%;
   margin: 0em 0em; }
 
-.leftPicBox {
-  display: none; }
-
-@media screen and (min-width: 899px) {
-  .leftPicBox {
-    display: block;
-    width: 100%;
-    float: left;
-    margin: 0em -4em; } }
-.pizzaMenu {
-  width: 100%; }
-
-@media screen and (min-width: 899px) {
-  .leftPicBox {
-    width: 70%;
-    float: left;
-    margin: 0em -4em; }
-
-  .pizzaMenu {
-    width: 30%;
-    float: right;
-    margin: 0em 2em;
-    float: right; } }
 .menuLink {
-  margin-top: 1em;
+  float: left;
+  margin: 5% 5%;
   position: relative;
-  width: 100%;
-  padding-bottom: 100%;
+  width: 40%;
+  padding-bottom: 40%;
   display: flex;
   flex-direction: column;
   border-style: solid;
@@ -747,15 +725,25 @@ hr.pacman {
     background-image: url("../img/pizza1.gif"); }
 
   .textArea {
-    width: 30%;
+    width: 50%;
     float: left;
     margin: 0;
     align-self: center; }
 
   .imgArea {
-    width: 70%;
+    width: 50%;
     float: right;
-    margin: 0; } }
+    margin: 0; }
+
+  .reverseParent {
+    order: -1;
+    text-align: right; }
+
+  .reverseChild {
+    float: right; }
+
+  .reverseText {
+    text-align: right; } }
 .spinPizza {
   -webkit-animation: rotation 100s infinite linear; }
 

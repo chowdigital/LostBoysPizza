@@ -35,44 +35,48 @@
 
 
 </section>
-<hr class="dotty">
+
 <section class="contactArea">
-		<div class="leftPicContact">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/pizza2.gif" alt="Pizza">
-	</div>
-		<div class="rightTextContact">
-			<h2><span class="main-text skew">
+
+
+	<div class="pizzaBlock">
+
+		<div class="textArea reverseText">
+				<h2><span class="main-text skew">
 		CONTACT
 		<span class="back-text glitch">CONTACT</span>
 	</span></h2>
+
 			<p><strong>
-					<a href="tel:02072728955">Phone:	020 7388 2101</a>
-	       		 </strong></p>
-			
-			 <p><strong>
-	           		 <a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Enquireys: fangs@lostboyspizza.com</a>
-	      		 </strong></p>
-	      	 <p><strong>
-	           		 <a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Bookings: fangs@lostboyspizza.com</a>
-	      		 </strong></p>
+				<a href="tel:02072728955">Phone:	020 7388 2101</a>
+			</strong></p>
+
+			<p><strong>
+				<a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Enquireys: fangs@lostboyspizza.com</a>
+			</strong></p>
+			<p><strong>
+				<a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Bookings: fangs@lostboyspizza.com</a>
+			</strong></p>
 			<h2><span class="main-text skew">
-		LOCATION
-		<span class="back-text glitch">LOCATION</span>
-</span></h2>
-		<p><strong>
-	           		 <a href="https://www.google.com/maps/place/Lost+Boys+Pizza+Camden/@51.5336039,-0.1378751,15z/data=!4m5!3m4!1s0x0:0x9e9cf7ac30c9cc68!8m2!3d51.5336039!4d-0.1378751" target="_top">Open in Google Maps</a>
-	      		 </strong></p>
-
-
-		
-
-	
+				LOCATION
+				<span class="back-text glitch">LOCATION</span>
+			</span></h2>
+			<p><strong>
+				<a href="https://www.google.com/maps/place/Lost+Boys+Pizza+Camden/@51.5336039,-0.1378751,15z/data=!4m5!3m4!1s0x0:0x9e9cf7ac30c9cc68!8m2!3d51.5336039!4d-0.1378751" target="_top">Open in Google Maps</a>
+			</strong></p>
 			<p><strong>245 Eversholt St, London NW1 1BA</strong></p>
+
 		</div>
-	
+		
+		<div class="imgArea reverseParent">
+			<div class="spinPizza reverseChild"></div>
+
+		</div>
+
+	</div>
 </section>
 
-<hr class="dotty">
+
 <!--<section class="blog">
 	<div class="blogHeading"><h2>The Pizza Diaries</h2></div>	
 
@@ -118,97 +122,67 @@
 <section class="menuSection">
 
 
+<div class="pizzaBlock">
 
-	<h2><span class="main-text skew">
+	<div class="textArea" id="menuArea">
+
+		<h2><span class="main-text skew">
 		Menu
 		<span class="back-text glitch">Menu</span>
 	</span>
 </h2>
 
 
-<section class="pizzaBlock">
+		<a href="<?php the_field('MAIN_MENU'); ?>" class="menuLink">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/menu/pizza.jpg" alt="Avatar">
+			<div class="bottom">
+				<h4>MAIN MENU</h4>
+				<!--<div class="text"><h1>PIZZA</h1></div>-->
+			</div>
+		</a>
 
-	<div class="textArea">
+		<a href="<?php the_field('BRUNCH'); ?>" class="menuLink">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/menu/brunch.jpg" alt="Avatar">
+			<div class="bottom">
+				<h4>BRUNCH</h4>
+				<!--<div class="text"><h1>PIZZA</h1></div>-->
+			</div>
+		</a>
 
-	<h2>Black Charcoal Pizza</h2>
-	<h2><span class="main-text skew">
-		Killer Cocktails
-		<span class="back-text glitch">Killer Cocktails</span>
-	</span></h2>
-	<h2>All served with a banging 80s playlist</h2>
+		<a href="<?php the_field('DESSERTS'); ?>" class="menuLink">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/menu/dessert.jpg" alt="Avatar">
+			<div class="bottom">
+				<h4>DESSERTS</h4>
+				<!--<div class="text"><h1>PIZZA</h1></div>-->
+			</div>
+		</a>
+
+		<a href="<?php the_field('DRINKS'); ?>" class="menuLink">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/menu/drink.jpg" alt="Avatar">
+			<div class="bottom">
+				<h4>DRINKS</h4>
+				<!--<div class="text"><h1>PIZZA</h1></div>-->
+			</div>
+		</a>
+
+		<a href="<?php the_field('PARTY'); ?>" class="menuLink">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/menu/party.jpg" alt="Avatar">
+			<div class="bottom">
+				<h4>PARTY</h4>
+				<!--<div class="text"><h1>PIZZA</h1></div>-->
+			</div>
+		</a>
+
 	</div>
-		
-		<div class="imgArea">
-			<div class="spinPizza"></div>
+
+	<div class="imgArea">
+		<div class="spinPizza"></div>
 
 	</div>
+
+</div>
 
 </section>
-
-
-
-
-
-
-
-
-<div class="leftPicBox">
-
-	<img src="<?php echo get_template_directory_uri(); ?>/img/pizza2cutout.png" alt="">
-
-</div>
-
-
-<div class="pizzaMenu">
-
-
-
-	<a href="<?php the_field('MAIN_MENU'); ?>" class="menuLink">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/menu/pizza.jpg" alt="Avatar">
-		<div class="bottom">
-			<h4>MAIN MENU</h4>
-			<!--<div class="text"><h1>PIZZA</h1></div>-->
-		</div>
-	</a>
-
-	<a href="<?php the_field('BRUNCH'); ?>" class="menuLink">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/menu/brunch.jpg" alt="Avatar">
-		<div class="bottom">
-			<h4>BRUNCH</h4>
-			<!--<div class="text"><h1>PIZZA</h1></div>-->
-		</div>
-	</a>
-
-	<a href="<?php the_field('DESSERTS'); ?>" class="menuLink">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/menu/dessert.jpg" alt="Avatar">
-		<div class="bottom">
-			<h4>DESSERTS</h4>
-			<!--<div class="text"><h1>PIZZA</h1></div>-->
-		</div>
-	</a>
-
-	<a href="<?php the_field('DRINKS'); ?>" class="menuLink">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/menu/drink.jpg" alt="Avatar">
-		<div class="bottom">
-			<h4>DRINKS</h4>
-			<!--<div class="text"><h1>PIZZA</h1></div>-->
-		</div>
-	</a>
-
-	<a href="<?php the_field('PARTY'); ?>" class="menuLink">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/menu/party.jpg" alt="Avatar">
-		<div class="bottom">
-			<h4>PARTY</h4>
-			<!--<div class="text"><h1>PIZZA</h1></div>-->
-		</div>
-	</a>
-	
-
-</div>
-	
-
-
-						</section>
 						<section class="promo"></section>
 
 
