@@ -26,7 +26,7 @@
 	</span></h1>
 
 
-<hr class="dotty">
+
 <section class="instagram">
 	
 
@@ -117,7 +117,7 @@
 
 	?>-->
 </section>
-
+<hr class="dotty">
 
 <section class="menuSection">
 
@@ -174,9 +174,8 @@
 		</a>
 
 	</div>
-
 	<div class="imgArea">
-		<div class="spinPizza"></div>
+		<div class="spinPizza hidePizza"></div>
 
 	</div>
 

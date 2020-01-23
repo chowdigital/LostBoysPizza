@@ -500,6 +500,10 @@ strong {
   width: 100%;
   margin: 0em 0em; }
 
+.break {
+  flex-basis: 100%;
+  height: 0; }
+
 .menuLink {
   float: left;
   margin: 5% 5%;
@@ -711,15 +715,16 @@ hr.pacman {
   text-align: left;
   width: 100%;
   margin-right: 2em; }
-  .textArea h2 {
-    font-size: 1.4em; }
+
+.hidePizza {
+  display: none; }
 
 @media screen and (min-width: 899px) {
   .pizzaBlock {
-    display: flex;
-    margin-top: -6em; }
+    display: flex; }
 
   .spinPizza {
+    display: block;
     width: 900px;
     height: 900px;
     background-image: url("../img/pizza1.gif"); }
