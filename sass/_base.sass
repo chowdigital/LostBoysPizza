@@ -24,6 +24,7 @@
 
 
 html
+	background: #000
 	background: url("../img/skullTile.png")
 	z-index: -2
 	scroll-behavior: smooth
@@ -35,13 +36,21 @@ body
 	font-style: normal
 	letter-spacing: 0.1em
 	z-index: -1
-	color: #fff
 	font-size: 1.5em
 	line-height: 1.5em
 	text-align: left
-	background: url("../img/moonWide.png")
-	background-size: 100% auto
-	background-repeat: no-repeat
+	background: rgba(0, 0, 0, 0)
+
+
+
+@media screen and (min-width: $breakmax)
+	body
+		display
+		background: url("../img/moonWide.png")
+		background-size: 100% auto
+		background-repeat: no-repeat
+
+
 
 a, .main-navigation li a
 	color: #fff
