@@ -119,7 +119,7 @@
 </section>
 <hr class="dotty">
 
-<section class="menuSection">
+<section id="menuLink" class="menuSection">
 
 
 <div class="pizzaBlock">
