@@ -136,7 +136,15 @@
 		<a href="<?php the_field('MAIN_MENU'); ?>" class="menuLink">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/menu/pizza.jpg" alt="Avatar">
 			<div class="bottom">
-				<h4>MAIN MENU</h4>
+				<h4>MAIN</h4>
+				<!--<div class="text"><h1>PIZZA</h1></div>-->
+			</div>
+		</a>
+
+		<a href="<?php the_field('VEGAN'); ?>" class="menuLink">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/menu/vegan.jpg" alt="Avatar">
+			<div class="bottom">
+				<h4>VEGAN</h4>
 				<!--<div class="text"><h1>PIZZA</h1></div>-->
 			</div>
 		</a>
