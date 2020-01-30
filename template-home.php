@@ -69,7 +69,7 @@
 		</div>
 		
 		<div class="imgArea reverseParent">
-			<div class="spinPizza reverseChild"></div>
+			<div id="pizza3" class="spinPizza reverseChild"></div>
 
 		</div>
 
@@ -77,37 +77,58 @@
 </section>
 
 
-<!--<section class="blog">
+<section class="blog">
 	<div class="blogHeading"><h2>The Pizza Diaries</h2></div>	
-	<?php
+
+		<?php
 // The Query
-	$the_query = new WP_Query( 'posts_per_page=3' );
+		$args = array(
+    		'category_name'  => 'catwhat',
+    		'posts_per_page' => 3,
+		);
+
+	$the_query = new WP_Query( $args );
+
+
 // The Loop
-	if ( $the_query->have_posts() ) {
-		while ( $the_query->have_posts() ) {
-			$the_query->the_post();
-			?>		
-			<div class="homeBlog">
-				<div class="storyImage">
-					<a href="<?php the_permalink(); ?>">
+		if ( $the_query->have_posts() ) {
+			while ( $the_query->have_posts() ) {
+				$the_query->the_post();
+				$category = get_the_category(); 
+				?>		
+				<div class="single-content grid-item homepageloop <?php echo $category[0]->slug;?>">
+
+
+					<a href="<?php the_permalink(); ?>" class="menuLink">
 						<img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+						<div class="bottom" id="<?php echo $category[0]->slug;?>">
+							<h4><?php print get_the_category(get_the_ID())[0]->name; ?></h4>
+						</div>
+						<div class="title"><h3><?php the_title(); ?></h3></div>
+
 					</a>
 				</div>
-				<div class="storyContent">
-					<a href="<?php the_permalink(); ?>">
-						<P><strong><?php the_title(); ?></strong></P>
-					</a>
-				</div>
-			</div>
-			<?php 
-			
-		}
-	} else {
+
+
+
+
+
+
+				<?php 
+
+
+
+
+
+
+			}
+		} else {
     // no posts found
-	}
-	/* Restore original Post Data */
-	wp_reset_postdata();
-	?>-->
+		}
+		/* Restore original Post Data */
+		wp_reset_postdata();
+
+		?>	
 </section>
 <hr class="dotty">
 
@@ -175,7 +196,7 @@
 
 	</div>
 	<div class="imgArea">
-		<div class="spinPizza hidePizza"></div>
+		<div id="pizza2" class="spinPizza hidePizza"></div>
 
 	</div>
 

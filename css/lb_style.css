@@ -440,7 +440,7 @@ strong {
   40% {
     transform: translate3d(0, 0, 0); } }
 .lbSectionTitle {
-  background: #881E1E;
+  background: #ca0d00;
   padding: 0.3em;
   text-align: center;
   margin-top: 2em; }
@@ -599,7 +599,7 @@ hr.pacman {
   color: #fff; }
 
 #dmn-partner-widget #dmn-widget-inner .number-people.number-people-dropdown, #dmn-partner-widget #dmn-widget-inner .number-people-dropdown.number-people-dropdown {
-  background-color: #881E1E;
+  background-color: #ca0d00;
   height: 50px; }
 
 #dmn-partner-widget #dmn-widget-inner .number-people.number-people-dropdown span, #dmn-partner-widget #dmn-widget-inner .number-people-dropdown.number-people-dropdown span {
@@ -610,7 +610,7 @@ hr.pacman {
   font-size: 2em; }
 
 #dmn-partner-widget .date-selector .vdp-datepicker .vdp-datepicker__calendar .cell.day-header {
-  color: #881E1E; }
+  color: #ca0d00; }
 
 #dmn-partner-widget .date-selector .vdp-datepicker .vdp-datepicker__calendar header .prev.next:not(.disabled)::after, #dmn-partner-widget .date-selector .vdp-datepicker .vdp-datepicker__calendar header .next.next:not(.disabled)::after {
   border-left-color: #fff; }
@@ -625,11 +625,11 @@ hr.pacman {
   color: #fff; }
 
 #dmn-partner-widget .offers-header .offers-header__button {
-  border: 1px solid #881E1E;
-  color: #881E1E; }
+  border: 1px solid #ca0d00;
+  color: #ca0d00; }
 
 #dmn-partner-widget .offers-header .offers-header__button:hover {
-  background-color: #881E1E; }
+  background-color: #ca0d00; }
 
 .filter-button-group {
   float: right;
@@ -681,11 +681,20 @@ hr.pacman {
   padding-top: 2em; }
 
 .single-content {
-  padding-right: 1em; }
+  padding-right: 1em;
+  margin-bottom: 1em; }
 
 .single-content a {
-  width: 300px;
-  height: 300px; }
+  width: 350px;
+  height: 350px; }
+
+.title {
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0em 1em; }
 
 .blogSection {
   width: 100%; }
@@ -730,6 +739,12 @@ hr.pacman {
 .hidePizza {
   display: none; }
 
+#pizza2 {
+  background-image: url("../img/pizza2sml.gif"); }
+
+#pizza3 {
+  background-image: url("../img/pizza3sml.gif"); }
+
 @media screen and (min-width: 899px) {
   .pizzaBlock {
     display: flex; }
@@ -759,7 +774,13 @@ hr.pacman {
     float: right; }
 
   .reverseText {
-    text-align: right; } }
+    text-align: right; }
+
+  #pizza2 {
+    background-image: url("../img/pizza2.gif"); }
+
+  #pizza3 {
+    background-image: url("../img/pizza3.gif"); } }
 .spinPizza {
   -webkit-animation: rotation 100s infinite linear; }
 

@@ -20,7 +20,7 @@
 
 
 
-		<!---- THE LOOP START --->
+		<!---- THE LOOP START -->
 
 
 
@@ -66,7 +66,7 @@
 		/* Restore original Post Data */
 		wp_reset_postdata();
 
-		?>		
+		?>	
 	</div>
 </section>
 
