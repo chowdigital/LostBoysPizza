@@ -85,7 +85,8 @@ p {
   letter-spacing: 0; }
 
 li {
-  font-family: shlop, sans-serif; }
+  font-family: shlop, sans-serif;
+  float: right; }
 
 small {
   font-size: 0.7em; }

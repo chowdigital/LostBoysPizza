@@ -26,7 +26,13 @@
 				<!--<div class="text"><h1>PIZZA</h1></div>-->
 			</div>
 		</a>
-
+		<a href="<?php the_field('VEGAN'); ?>" class="menuLink">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/menu/vegan.jpg" alt="Avatar">
+			<div class="bottom">
+				<h4>VEGAN</h4>
+				<!--<div class="text"><h1>PIZZA</h1></div>-->
+			</div>
+		</a>
 		<a href="<?php the_field('BRUNCH'); ?>" class="menuLink">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/menu/brunch.jpg" alt="Avatar">
 			<div class="bottom">
