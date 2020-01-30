@@ -30,7 +30,7 @@
 <section class="instagram">
 	
 
-	<h2>Lost Boys Instagram</h2>
+	<h2>Lost Boys Pizza on Instagram</h2>
 <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/9f45f5bfc68d501ba253cf5e24a97033.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 
 
@@ -48,14 +48,14 @@
 	</span></h2>
 
 			<p><strong>
-				<a href="tel:02072728955">Phone:	020 7388 2101</a>
+				<a href="tel:02073882101">Call:	020 7388 2101</a>
 			</strong></p>
 
 			<p><strong>
-				<a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Enquireys: fangs@lostboyspizza.com</a>
+				<a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Enquiries: fangs@lostboyspizza.com</a>
 			</strong></p>
 			<p><strong>
-				<a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Bookings: fangs@lostboyspizza.com</a>
+				<a href="mailto:camden@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Bookings: camden@lostboyspizza.com</a>
 			</strong></p>
 			<h2><span class="main-text skew">
 				LOCATION
@@ -79,11 +79,9 @@
 
 <!--<section class="blog">
 	<div class="blogHeading"><h2>The Pizza Diaries</h2></div>	
-
 	<?php
 // The Query
 	$the_query = new WP_Query( 'posts_per_page=3' );
-
 // The Loop
 	if ( $the_query->have_posts() ) {
 		while ( $the_query->have_posts() ) {
@@ -103,18 +101,12 @@
 			</div>
 			<?php 
 			
-
-
-
-
-
 		}
 	} else {
     // no posts found
 	}
 	/* Restore original Post Data */
 	wp_reset_postdata();
-
 	?>-->
 </section>
 <hr class="dotty">
@@ -136,7 +128,15 @@
 		<a href="<?php the_field('MAIN_MENU'); ?>" class="menuLink">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/menu/pizza.jpg" alt="Avatar">
 			<div class="bottom">
-				<h4>MAIN MENU</h4>
+				<h4>MAIN</h4>
+				<!--<div class="text"><h1>PIZZA</h1></div>-->
+			</div>
+		</a>
+
+		<a href="<?php the_field('VEGAN'); ?>" class="menuLink">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/menu/vegan.jpg" alt="Avatar">
+			<div class="bottom">
+				<h4>VEGAN</h4>
 				<!--<div class="text"><h1>PIZZA</h1></div>-->
 			</div>
 		</a>
