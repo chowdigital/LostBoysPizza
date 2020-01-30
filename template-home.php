@@ -30,7 +30,7 @@
 <section class="instagram">
 	
 
-	<h2>Lost Boys Instagram</h2>
+	<h2>Lost Boys Pizza on Instagram</h2>
 <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/9f45f5bfc68d501ba253cf5e24a97033.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 
 
@@ -48,14 +48,14 @@
 	</span></h2>
 
 			<p><strong>
-				<a href="tel:02072728955">Phone:	020 7388 2101</a>
+				<a href="tel:02073882101">Call:	020 7388 2101</a>
 			</strong></p>
 
 			<p><strong>
-				<a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Enquireys: fangs@lostboyspizza.com</a>
+				<a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Enquiries: fangs@lostboyspizza.com</a>
 			</strong></p>
 			<p><strong>
-				<a href="mailto:fangs@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Bookings: fangs@lostboyspizza.com</a>
+				<a href="mailto:camden@lostboyspizza.com?Subject=BITE%20ME!" target="_top">Bookings: camden@lostboyspizza.com</a>
 			</strong></p>
 			<h2><span class="main-text skew">
 				LOCATION

@@ -181,4 +181,15 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 		wp_enqueue_script( 'script-js', trailingslashit( get_stylesheet_directory_uri() ) . 'assets/js/script.min.js' , array( 'jquery', 'smootstate-js' ), '1.0.0', true );
 		
 	} );
+/*------------------------------------*\
+    Woo Commerce START
+\*------------------------------------*/
+function mytheme_add_woocommerce_support() {
+add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
+/*------------------------------------*\
+    Woo Commerce END
+\*------------------------------------*/
+
 
