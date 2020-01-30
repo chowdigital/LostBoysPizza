@@ -85,7 +85,8 @@ p {
   letter-spacing: 0; }
 
 li {
-  font-family: shlop, sans-serif; }
+  font-family: shlop, sans-serif;
+  float: right; }
 
 small {
   font-size: 0.7em; }
@@ -94,6 +95,12 @@ strong {
   font-weight: 900;
   text-transform: uppercase; }
 
+@media screen and (max-width: 900px) {
+  h1, h2 {
+    font-size: 1.4em; }
+
+  a {
+    font-size: 0.8em; } }
 .dotty {
   margin: 4em 0em; }
 

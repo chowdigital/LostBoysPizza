@@ -75,7 +75,7 @@ h1, h2
 	line-height: 1.5em
 	padding-top: 0em
 	text-transform: uppercase
-	font-weight: 900
+	font-weight: 900	
 
 h3
 	
@@ -96,6 +96,7 @@ p
 
 li 
 	font-family: shlop, sans-serif
+	float: right
 
 
 small
@@ -104,6 +105,12 @@ small
 strong
 	font-weight: 900
 	text-transform: uppercase
+
+@media screen and (max-width: $breakmin)
+	h1, h2
+		font-size: 1.4em
+	a
+		font-size: 0.8em
 
 .dotty
 	margin: 4em 0em
