@@ -124,7 +124,7 @@ function lostboys2020_scripts() {
 	/*DMN CS*/
 	wp_enqueue_style( 'dmn', '//onsass.designmynight.com?background-color=%23FFFFFF&primary-color=%236DA8A6&body-text-color=%23000000&outer-border-color=gray', array(), '1.0', 'all' );
 	
-	wp_enqueue_style( 'lbStyle', get_template_directory_uri() . '/css/lb_style.css?v=1.1', array(), '1.0', 'all' );
+	wp_enqueue_style( 'lbStyle', get_template_directory_uri() . '/css/lb_style.css?v=1.2', array(), '1.0', 'all' );
 
 	wp_enqueue_script( 'lostboys2020-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
