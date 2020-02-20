@@ -363,6 +363,24 @@ strong {
 
   #mc-embedded-subscribe, .mc-field-group input, .mc-field-group input:active {
     width: 200px; } }
+.uberlink {
+  text-align: center;
+  background: #000;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 999; }
+  .uberlink p {
+    font-size: 12px;
+    margin: 0;
+    letter-spacing: 2px; }
+    .uberlink p strong {
+      margin: 0;
+      font-size: 20px; }
+
+@media screen and (min-width: 900px) {
+  .uberlink {
+    display: none; } }
 .site-content {
   -webkit-transition: -webkit-transform 0.28s, opacity 0.28s;
   -ms-transition: -o-transform 0.28s, opacity 0.28s;
@@ -699,7 +717,8 @@ hr.pacman {
 @media screen and (max-width: 900px) {
   .single-content a {
     width: 90vw;
-    height: 90vw; }
+    height: 90vw;
+    padding-right: 0em; }
 
   .menuLink {
     margin: 0 0; }

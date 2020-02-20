@@ -14,38 +14,11 @@
 </div><!-- #content -->
 
 
-<!-------- Google Reviews 
-<div class="dottedBottom grid">
-	<div class="d1-12">
-    	<h2>Google Reviews</h2>
-   	</div>
-	<div class="d1-12 floatRight">
-    	<a href="https://www.google.com/search?ei=dNh2XL3sBJiEjLsPqb6imA8&q=CROQUE+MONSIEUR+absynth&oq=CROQUE+MONSIEUR+absynth&gs_l=psy-ab.3..0i13l2.1392.3192..3392...0.0..0.184.839.6j2......0....1..gws-wiz.......0i71j0i20i263j0j0i67j0i22i30j33i160.VUySLkGf4Bo#lrd=0x48761b332c312583:0x52667f38962a51ce,1,,," class="btn-red">
-    	 <p><strong>SEE ALL REVIEWS</strong></p></a>
-   	</div>
-   	<div class="box6">
-     	<div id="google-reviews"></div>
-   	</div>
-</div>
-
-<link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css">
-
-  <script src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js"></script>
  
-
-  <script>
-    jQuery(document).ready(function( $ ) {
-     $("#google-reviews").googlePlaces({
-        placeId: 'ChIJgyUxLDMbdkgRzlEqljh_ZlI' //Find placeID @: https://developers.google.com/places/place-id
-        , render: ['reviews']
-        , min_rating: 5
-        , max_rows: 4
-      });
-   });
- </script>
--->
-
 <section id="bookLink" name="book" class="dmnBooking">
+
+		<hr class="dotty">
+ <div id="google-reviews"></div>
 	<hr class="dotty">
 
 		<h2><span class="main-text skew">
@@ -145,7 +118,37 @@
 
 <?php wp_footer(); ?>
 </div></div>
-
+<a href="https://m.uber.com/ul/?action=setPickup&client_id=1JA-ZORtoiw_ceO34u9izFcYuuz_iAzm&pickup=my_location&dropoff[formatted_address]=Lost%20Boys%20Pizza%20Camden%2C%20Eversholt%20Street%2C%20London%2C%20UK&dropoff[latitude]=51.533604&dropoff[longitude]=-0.137875"><div class="uberlink"><p>Get me to Lost Boys Pizza!</p>
+<p><strong>Click here for Uber</strong></p></div></a>
 </body>
+
+ <script>
+jQuery(document).ready(function($) {
+  if ($("#google-reviews").length == 0) {
+    return
+  }
+  // Find a placeID via https://developers.google.com/places/place-id
+  $("#google-reviews").googlePlaces({
+    placeId: 'ChIJX2mpTDcbdkgRaMzJMKz3nJ4',
+    // the following params are optional (default values)
+    header: "<h2>Latest Google Reviews</h2>", // html/text over Reviews
+    footer: '', // html/text under Reviews block
+    maxRows: 3, // max 5 rows of reviews to be displayed
+    minRating: 5, // minimum rating of reviews to be displayed
+  
+    textBreakLength: "90", // length before a review box is set to max width
+    shortenNames: true, // example: "Max Mustermann" -> "Max M."",
+    moreReviewsButtonUrl: 'https://www.google.com/search?client=firefox-b-d&q=lost+boys+pizza#lrd=0x48761b374ca9695f:0x9e9cf7ac30c9cc68,1,,,', // url to Google Place reviews popup
+    moreReviewsButtonLabel: 'Show More Reviews',
+    writeReviewButtonUrl: 'https://www.google.com/search?client=firefox-b-d&q=lost+boys+pizza#lrd=0x48761b374ca9695f:0x9e9cf7ac30c9cc68,3,,,', // url to Google Place write review popup
+    writeReviewButtonLabel: 'Write New Review',
+    showProfilePicture: true
+  });
+});
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W76LJMW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
  
 </html>
