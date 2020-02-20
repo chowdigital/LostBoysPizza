@@ -41,7 +41,7 @@
   align-content: stretch;
   width: 90%;
 }
-@media ( min-width:700px) {
+@media ( min-width:1000px) {
   .review-item-long, .review-item {
     width: 30%;
   }
