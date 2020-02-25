@@ -1,5 +1,8 @@
 ( function( $ ) {
 
+
+	
+
 	function addBlacklistClass() {
 		$( 'a' ).each( function() {
 			if ( this.href.indexOf('/wp-admin/') !== -1 || 
@@ -45,6 +48,9 @@
 
 		$( '#page' ).smoothState( settings );
 	} );
+
+$('#mc_embed_signup').smoothState({ blacklist: '.no-smoothState' });
+
 
 })( jQuery );
 

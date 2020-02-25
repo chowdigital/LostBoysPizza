@@ -10,16 +10,39 @@
  */
 
 ?>
-
+<hr class="dotty">
+ <div id="google-reviews"></div>
+	<hr class="dotty">
 </div><!-- #content -->
 
-
+<script>
+jQuery(document).ready(function($) {
+  if ($("#google-reviews").length == 0) {
+    return
+  }
+  // Find a placeID via https://developers.google.com/places/place-id
+  $("#google-reviews").googlePlaces({
+    placeId: 'ChIJX2mpTDcbdkgRaMzJMKz3nJ4',
+    // the following params are optional (default values)
+    header: "<h2>Latest Google Reviews</h2>", // html/text over Reviews
+    footer: '', // html/text under Reviews block
+    maxRows: 3, // max 5 rows of reviews to be displayed
+    minRating: 5, // minimum rating of reviews to be displayed
+  
+    textBreakLength: "90", // length before a review box is set to max width
+    shortenNames: true, // example: "Max Mustermann" -> "Max M."",
+    moreReviewsButtonUrl: 'https://www.google.com/search?client=firefox-b-d&q=lost+boys+pizza#lrd=0x48761b374ca9695f:0x9e9cf7ac30c9cc68,1,,,', // url to Google Place reviews popup
+    moreReviewsButtonLabel: 'Show More Reviews',
+    writeReviewButtonUrl: 'https://www.google.com/search?client=firefox-b-d&q=lost+boys+pizza#lrd=0x48761b374ca9695f:0x9e9cf7ac30c9cc68,3,,,', // url to Google Place write review popup
+    writeReviewButtonLabel: 'Write New Review',
+    showProfilePicture: true
+  });
+});
+</script>
  
 <section id="bookLink" name="book" class="dmnBooking">
 
-		<hr class="dotty">
- <div id="google-reviews"></div>
-	<hr class="dotty">
+		
 
 		<h2><span class="main-text skew">
 		Make a booking
@@ -122,30 +145,7 @@
 <p><strong>Click here for Uber</strong></p></div></a>
 </body>
 
- <script>
-jQuery(document).ready(function($) {
-  if ($("#google-reviews").length == 0) {
-    return
-  }
-  // Find a placeID via https://developers.google.com/places/place-id
-  $("#google-reviews").googlePlaces({
-    placeId: 'ChIJX2mpTDcbdkgRaMzJMKz3nJ4',
-    // the following params are optional (default values)
-    header: "<h2>Latest Google Reviews</h2>", // html/text over Reviews
-    footer: '', // html/text under Reviews block
-    maxRows: 3, // max 5 rows of reviews to be displayed
-    minRating: 5, // minimum rating of reviews to be displayed
-  
-    textBreakLength: "90", // length before a review box is set to max width
-    shortenNames: true, // example: "Max Mustermann" -> "Max M."",
-    moreReviewsButtonUrl: 'https://www.google.com/search?client=firefox-b-d&q=lost+boys+pizza#lrd=0x48761b374ca9695f:0x9e9cf7ac30c9cc68,1,,,', // url to Google Place reviews popup
-    moreReviewsButtonLabel: 'Show More Reviews',
-    writeReviewButtonUrl: 'https://www.google.com/search?client=firefox-b-d&q=lost+boys+pizza#lrd=0x48761b374ca9695f:0x9e9cf7ac30c9cc68,3,,,', // url to Google Place write review popup
-    writeReviewButtonLabel: 'Write New Review',
-    showProfilePicture: true
-  });
-});
-</script>
+ 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W76LJMW"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
